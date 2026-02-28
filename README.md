@@ -40,9 +40,10 @@ Manual implementation of a quantum bit-flip repetition code in Stim with realist
 
 \### Logical Error Rate vs Gate Error Rate
 
-!\[Logical Error Rate vs Gate Error Rate](https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/LERvsGER.png)
 
-\## How to Run
+<img src="https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/LERvsGER.png" alt="Logical Error Rate vs Gate Error Rate" width="600">
+
+## How to Run
 
 
 
