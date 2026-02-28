@@ -88,7 +88,7 @@ This helps illustrate which circuit we are studying when analyzing the logical e
 
 
 
-<img src="https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/noisy\_circuit.png" alt="Logical Error Rate vs Gate Error Rate" width="800">
+<img src="https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/noisycircuit.png" alt="Logical Error Rate vs Gate Error Rate" width="800">
 
 
 \### Logical Error Rate vs Gate Error Rate
