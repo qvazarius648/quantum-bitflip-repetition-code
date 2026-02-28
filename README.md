@@ -4,33 +4,75 @@
 
 \## Overview
 
-Manual implementation of a quantum bit-flip repetition code in Stim with realistic noise modeling and logical error rate scaling analysis.
+This project demonstrates a \*\*manual implementation of a quantum bit-flip repetition code\*\* using \*\*Stim\*\*, a high-performance simulator for stabilizer circuits.  
+
+The main goal is to showcase the ability to construct quantum error-correcting circuits from scratch, simulate realistic noise, and analyze logical error rates.
+
+
+
+The project emphasizes:
+
+\- Understanding of the \*\*physical and logical structure\*\* of repetition codes.
+
+\- Ability to simulate quantum circuits with \*\*noise models\*\*.
+
+\- Analysis of logical error rate scaling with \*\*code distance, number of rounds, and error probabilities\*\*.
+
+
+
+---
 
 
 
 \## Circuit Construction
 
-\- Manual generation of data and ancilla qubits
+\- \*\*Data and Ancilla Qubits:\*\* Data qubits store the logical information, while ancilla qubits are used for stabilizer (syndrome) measurements.  
 
-\- Stabilizer measurement rounds
+\- \*\*Syndrome Measurement Rounds:\*\* Repeated rounds of nearest-neighbor parity measurements are performed to extract syndrome data.  
+
+\- \*\*Full Syndrome Extraction:\*\* All ancilla qubits are measured after each round, without active error correction, to collect statistics.
+
+
+
+---
 
 
 
 \## Noise Model
 
-\- Depolarizing gate noise
+The simulation includes realistic stochastic noise channels:
 
-\- Idle noise
 
-\- Measurement X noise
+
+\- \*\*Gate noise:\*\* Single- and two-qubit depolarizing noise applied after each gate operation.  
+
+\- \*\*Idle noise:\*\* Depolarizing noise applied to qubits that are idle during a given time layer.  
+
+\- \*\*Measurement noise:\*\* Classical bit-flip (X) noise applied immediately after measurement.
+
+
+
+This setup allows studying the effect of each noise source on the logical error rate.
+
+
+
+---
 
 
 
 \## Monte Carlo Simulation
 
-\- Logical error rate estimation using majority vote
+\- \*\*Logical Error Rate Estimation:\*\* Uses a majority vote on data qubits at the end of the experiment to determine whether a logical error occurred.  
 
-\- Syndrome statistics per round
+\- \*\*Syndrome Statistics:\*\* Computes the fraction of rounds with nonzero syndromes, average syndrome weight, and per-round syndrome rates.  
+
+\- \*\*Parameter Sweeps:\*\* Can simulate different distances, number of rounds, and error probabilities to analyze scaling behavior.
+
+
+
+---
+
+
 
 
 
@@ -68,4 +110,14 @@ jupyter notebook repetition\_from\_scratch.ipynb
 
 
 3\. Run all cells to reproduce the experiments and plots.
+
+## Project Highlights
+
+\- \*\*Manual circuit construction:\*\* Demonstrates understanding of repetition codes from the ground up.
+
+\- \*\*Stim-based simulation:\*\* Efficient simulation of stabilizer circuits with Monte Carlo sampling.
+
+\- \*\*Noise modeling and analysis:\*\* Allows studying the impact of gate, idle, and measurement errors on logical qubits.
+
+\- \*\*Reproducibility:\*\* Notebook and requirements allow anyone to reproduce results easily.
 
