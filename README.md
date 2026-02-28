@@ -42,6 +42,7 @@ Manual implementation of a quantum bit-flip repetition code in Stim with realist
 
 !\[Logical Error Rate vs Gate Error Rate](results/LERvsGER.png)
 
+
 \## How to Run
 
 
