@@ -1,0 +1,5 @@
+stim
+numpy
+matplotlib
+jupyter
+pandas
