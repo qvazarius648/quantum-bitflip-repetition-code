@@ -88,7 +88,7 @@ This helps illustrate which circuit we are studying when analyzing the logical e
 
 
 
-<img src="results/noisy\_circuit.png" alt="Example Noisy Circuit" width="600">
+!\[Noisy circuit](results/noisy\_circuit.png)
 
 
 \### Logical Error Rate vs Gate Error Rate
