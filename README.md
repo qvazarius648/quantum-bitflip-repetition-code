@@ -80,7 +80,26 @@ This setup allows studying the effect of each noise source on the logical error 
 
 
 
+\### Example Noisy Circuit
+
+The figure below shows an example of the \*\*noisy repetition code circuit\*\* that is analyzed in the experiments.  
+
+This helps illustrate which circuit we are studying when analyzing the logical error rate for different noise types.
+
+
+
+\[View noisy circuit PDF](https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/noisy\_circuit.svg)
+
+
+
+\*(If you prefer to display an image directly, you can convert the PDF to PNG and use an `<img>` tag.)\*
+
+
+
 \### Logical Error Rate vs Gate Error Rate
+
+The following plot shows the \*\*logical error rate\*\* as a function of \*\*gate error probability\*\* for different numbers of syndrome measurement rounds.
+
 
 
 <img src="https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/LERvsGER.png" alt="Logical Error Rate vs Gate Error Rate" width="600">
