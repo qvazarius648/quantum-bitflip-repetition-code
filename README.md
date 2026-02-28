@@ -92,10 +92,6 @@ This helps illustrate which circuit we are studying when analyzing the logical e
 
 
 
-\*(If you prefer to display an image directly, you can convert the PDF to PNG and use an `<img>` tag.)\*
-
-
-
 \### Logical Error Rate vs Gate Error Rate
 
 The following plot shows the \*\*logical error rate\*\* as a function of \*\*gate error probability\*\* for different numbers of syndrome measurement rounds.
