@@ -88,7 +88,7 @@ This helps illustrate which circuit we are studying when analyzing the logical e
 
 
 
-\[View noisy circuit PDF](https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/noisy\_circuit.svg)
+\[View noisy circuit](https://github.com/qvazarius648/quantum-bitflip-repetition-code/raw/main/results/noisy\_circuit.svg)
 
 
 
