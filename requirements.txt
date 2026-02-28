@@ -1,5 +1,5 @@
-stim
-numpy
-matplotlib
-jupyter
-pandas
+stim==1.13.0
+numpy==1.25.0
+pandas==2.1.0
+matplotlib==3.8.1
+notebook==7.0.0
