@@ -42,19 +42,29 @@ Manual implementation of a quantum bit-flip repetition code in Stim with realist
 
 !\[Logical Error Rate vs Gate Error Rate](results/LERvsGER.png)
 
-
 \## How to Run
+
+
 
 1\. Install dependencies:
 
 ```bash
 
-&nbsp;  pip install -r requirements.txt
+pip install -r requirements.txt
 
-2. Launch Jupyter Notebook:
+```
 
-&nbsp;```bash
 
-&nbsp;  jupyter notebook repetition\_from\_scratch.ipynb
 
-3. Run all cells to reproduce the experiments and plots.
+2\. Launch Jupyter Notebook:
+
+```bash
+
+jupyter notebook repetition\_from\_scratch.ipynb
+
+```
+
+
+
+3\. Run all cells to reproduce the experiments and plots.
+
