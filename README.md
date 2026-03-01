@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 ```bash
 
-jupyter notebook repetition\_from\_scratch.ipynb
+jupyter notebook repetition_from_scratch.ipynb
 
 ```
 
